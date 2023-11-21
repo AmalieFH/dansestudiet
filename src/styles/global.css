@@ -37,5 +37,5 @@ p {
   font-family: "Montserrat", sans-serif;
   font-size: 30px;
   line-height: 44px;
-  color: #873636;
+  color: var(--black);
 }
