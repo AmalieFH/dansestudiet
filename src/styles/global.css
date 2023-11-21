@@ -1,6 +1,40 @@
+:root {
+  /*global tokens*/
+  --white: #ffff;
+  --lightgrey: #eeeeee;
+  --darkgrey: #282828;
+  --black: #0000;
+
+  --red1: #ffeced;
+  --red2: #f5b4b1;
+  --red3: #e5233b;
+
+  /* Alias Tokens */
+  --color-maintext: var(--black);
+  --color-headertext: var(--red3);
+
+  --color-surface-button: var(--red3);
+  --color-text-button: var(--red1);
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
 p {
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
   font-size: 30px;
   line-height: 44px;
   color: #873636;
