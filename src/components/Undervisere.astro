@@ -1,0 +1,110 @@
+---
+import Button from "../components/Button.astro";
+---
+
+<section>
+  <div class="stilarter">
+    <div class="textani">
+      <section class="news-message">
+        <p>YOGA,</p>
+        <p>HIP HOP,</p>
+        <p>AFRO,</p>
+        <p>BALLET,</p>
+        <p>WAACKING,</p>
+        <p>STREET JAZZ,</p>
+        <p>MODERNE DANS,</p>
+        <p>HOUSE,</p>
+        <p>FUSION,</p>
+        <p>WORKSHOPS,</p>
+        <p>COMMEERCIAL FEMME,</p>
+        <p>STREET DANCE TEENS,</p>
+        <p>FREESTYLE,</p>
+        <p>FLOW YOGA,</p>
+      </section>
+      <section class="news-message">
+        <p>YOGA,</p>
+        <p>HIP HOP,</p>
+        <p>AFRO,</p>
+        <p>BALLET,</p>
+        <p>WAACKING,</p>
+        <p>STREET JAZZ,</p>
+        <p>MODERNE DANS,</p>
+        <p>HOUSE,</p>
+        <p>FUSION,</p>
+        <p>WORKSHOPS,</p>
+        <p>COMMEERCIAL FEMME,</p>
+        <p>STREET DANCE TEENS,</p>
+        <p>FREESTYLE,</p>
+        <p>FLOW YOGA,</p>
+      </section>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="undervisere">
+    <div class="underviseregalleri">
+      <img class="underviser1" src="/assets/images/underviser1.png" alt="" />
+      <img class="underviser2" src="/assets/images/underviser2.png" alt="" />
+      <img class="underviser3" src="/assets/images/underviser3.png" alt="" />
+    </div>
+    <Button text="Se alle undervisere" />
+  </div>
+</section>
+
+<style>
+  section {
+    text-transform: uppercase;
+    overflow-x: hidden;
+  }
+  .textani {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    min-width: 100%;
+  }
+  .news-message {
+    display: flex;
+    flex-shrink: 0;
+    height: 50px;
+    align-items: center;
+    animation: slide-left 40s linear infinite;
+  }
+  p {
+    font-size: 2.5em;
+    font-weight: 100;
+    padding-left: 0.5em;
+    font-family: "Montserrat";
+    color: #e5233b;
+  }
+
+  @keyframes slide-left {
+    from {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+    }
+    to {
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+
+  .underviser1,
+  .underviser2,
+  .underviser3 {
+    width: 50%;
+  }
+  .underviseregalleri {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+
+  @media (max-width: 700px) {
+    .ticket {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 60%;
+    }
+  }
+</style>
