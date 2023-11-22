@@ -1,7 +1,5 @@
 ---
 import Button from "../components/Button.astro";
-import HeroUnit from "../components/HeroUnit.astro";
-import Undervisere from "../components/Undervisere.astro";
 ---
 
 <html lang="en">
@@ -12,18 +10,15 @@ import Undervisere from "../components/Undervisere.astro";
     <meta name="generator" content={Astro.generator} />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&family=Montserrat+Alternates&display=swap" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Montserrat&family=Montserrat+Alternates&display=swap"
+      rel="stylesheet"
+    />
     <title>Astro</title>
   </head>
   <body>
-    <HeroUnit />
-    <Undervisere />
+    <h1>Astro</h1>
+    <p>hejsa</p>
+    <Button href="/" text="Se skema" />
   </body>
 </html>
-
-<style>
-  body {
-    box-sizing: border-box;
-    background-color: #ffeced;
-  }
-</style>
