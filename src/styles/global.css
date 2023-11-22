@@ -40,3 +40,12 @@ p {
   line-height: 44px;
   color: var(--black);
 }
+
+@font-face {
+  font-family: "DansestudietDisplay1-Bold";
+  src: url(../fonte/DansestudietDisplay1-Bold.otf);
+}
+
+h2 {
+  font-family: "DansestudietDisplay1-Bold";
+}
