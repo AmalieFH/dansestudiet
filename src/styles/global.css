@@ -19,10 +19,12 @@
 
 h1 {
   font-size: 100px;
+  font-family: "DansestudietDisplay1-Bold";
 }
 
 h2 {
   font-size: 60px;
+  font-family: "DansestudietDisplay1-Bold";
 }
 
 h3 {
@@ -31,6 +33,11 @@ h3 {
 
 h4 {
   font-size: 36px;
+  font-family: "Montserrat";
+}
+
+h5 {
+  font-size: 20px;
   font-family: "Montserrat";
 }
 
@@ -44,8 +51,4 @@ p {
 @font-face {
   font-family: "DansestudietDisplay1-Bold";
   src: url(../fonte/DansestudietDisplay1-Bold.otf);
-}
-
-h2 {
-  font-family: "DansestudietDisplay1-Bold";
 }
