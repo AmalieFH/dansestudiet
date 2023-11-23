@@ -16,10 +16,18 @@
   --color-surface-button: var(--red3);
   --color-text-button: var(--red1);
 }
+@media (min-width: 700px) {
+  h1 {
+    font-size: 100px;
+    font-family: "DansestudietDisplay1-Bold";
+  }
+}
 
-h1 {
-  font-size: 100px;
-  font-family: "DansestudietDisplay1-Bold";
+@media (max-width: 700px) {
+  h1 {
+    font-size: 50px;
+    font-family: "DansestudietDisplay1-Bold";
+  }
 }
 
 h2 {

@@ -3,13 +3,23 @@ import Button from "./Button.astro";
 ---
 
 <section>
-  <h1>Månedens workshop</h1>
-  <img src="/assets/images/commercialperformance_anna.webp" alt="workshops" />
-  <Button text="Læs mere" />
+  <div class="workshops">
+    <h1>Månedens <br />workshop<br /></h1>
+    <img src="/assets/images/commercialperformance_anna.webp" alt="workshops" />
+  </div>
+  <div class="knapworkshop"><Button text="Læs mere" /></div>
 </section>
 
 <style>
-  h1 {
-    width: 100px;
+  .workshops {
+    display: grid;
+  }
+  .workshops h1 {
+    justify-self: center;
+    align-self: center;
+  }
+  @media (max-width: 700px) {
+    h1 {
+    }
   }
 </style>
