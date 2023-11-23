@@ -3,6 +3,23 @@
 }
 
 :root {
+  /* Mode 1 */
+  /* colors */
+  --color-neutral-black: #000000;
+  --color-neutral-dark-grey: #282828;
+  --color-neutral-light-grey: #eeeeee;
+  --color-neutral-white: #ffffff;
+  --color-red-1: #ffeced;
+  --color-red-2: #f5b4b1;
+  --color-red-3: #e5233b;
+  /* numbers */
+  --spacing-space-xsmall: 2.375rem;
+  --spacing-space-small: 3.5rem;
+  --spacing-space-medium: 6.5625rem;
+  --spacing-space-large: 11.875rem;
+}
+
+:root {
   /*global tokens*/
   --white: #ffff;
   --lightgrey: #eeeeee;
