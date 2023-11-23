@@ -11,48 +11,54 @@
         <a href="https://www.instagram.com/dansestudietaarhus/"><img src="/assets/images/some3.webp" alt="instagram post 3" width="100%" height="100%" /></a>
       </div>
     </div>
-
-    <style>
-      .insta_grid {
-        display: grid;
-        max-width: 100%;
-        padding-top: var(--spacing-space-large);
-      }
-      .insta_grid h2 {
-        justify-self: center;
-        align-self: center;
-        text-align: center;
-        padding-bottom: var(--spacing-space-xsmall);
-      }
-
-      .instaopslag {
-        color: var(----black);
-      }
-
-      .insta_grid p {
-        justify-self: center;
-        align-self: center;
-        padding-bottom: var(--spacing-space-xsmall);
-      }
-      .img_flex {
-        display: flex;
-        justify-content: space-around;
-        gap: 10px;
-        padding-bottom: var(--spacing-space-large);
-      }
-
-      .img_flex a:hover {
-        opacity: 50%;
-      }
-
-      @font-face {
-        font-family: "DansestudietDisplay1-Bold";
-        src: url(../fonte/DansestudietDisplay1-Bold.otf);
-      }
-      h2 {
-        font-family: "DansestudietDisplay1-Bold";
-        font-size: 1.5rem;
-      }
-    </style>
   </div>
 </section>
+
+<style>
+  .insta_grid {
+    display: grid;
+    max-width: 100%;
+    padding-top: var(--spacing-space-large);
+  }
+  .insta_grid h2 {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    padding-bottom: var(--spacing-space-xsmall);
+  }
+
+  .instaopslag {
+    color: var(----black);
+  }
+
+  .insta_grid p {
+    justify-self: center;
+    align-self: center;
+    padding-bottom: var(--spacing-space-xsmall);
+  }
+  .img_flex {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding-bottom: var(--spacing-space-large);
+  }
+
+  .img_flex a:hover {
+    opacity: 50%;
+  }
+
+  @font-face {
+    font-family: "DansestudietDisplay1-Bold";
+    src: url(../fonte/DansestudietDisplay1-Bold.otf);
+  }
+
+  @media (max-width: 700px) {
+    .img_flex {
+      padding-bottom: var(--spacing-space-small);
+    }
+
+    .insta_grid {
+      padding-top: var(--spacing-space-small);
+    }
+  }
+</style>
