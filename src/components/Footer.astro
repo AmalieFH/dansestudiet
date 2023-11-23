@@ -46,6 +46,7 @@
           width: 100%;
           height: 100%;
           background: #f5b4b1;
+          box-sizing: border-box;
         }
         .kontakt {
           color: #231f20;
@@ -68,7 +69,6 @@
           width: 237px;
           height: 229px;
           position: relative;
-          justify-content: center;
         }
 
         .boks_2 {
@@ -101,7 +101,10 @@
         }
 
         /******** Desktop site *******/
-        @media (min-width: 650px) {
+        @media (min-width: 700px) {
+          a {
+            text-decoration: none;
+          }
           .footer {
             width: 100%;
             height: 100%;
