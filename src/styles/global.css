@@ -13,6 +13,8 @@
   --color-red-2: #f5b4b1;
   --color-red-3: #e5233b;
   /* numbers */
+  --spacing-space-xxxsmall: 0.75rem;
+  --spacing-space-xxsmall: 1.3125rem;
   --spacing-space-xsmall: 2.375rem;
   --spacing-space-small: 3.5rem;
   --spacing-space-medium: 6.5625rem;
