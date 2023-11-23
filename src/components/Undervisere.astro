@@ -55,6 +55,7 @@ import Button from "../components/Button.astro";
 <style>
   section {
     text-transform: uppercase;
+    overflow-x: hidden;
   }
   .textani {
     display: flex;
@@ -100,10 +101,24 @@ import Button from "../components/Button.astro";
   }
 
   @media (max-width: 700px) {
-    .ticket {
+    .underviseregalleri {
       display: grid;
       grid-template-columns: 1fr;
-      width: 60%;
+    }
+    .underviser1,
+    .underviser2,
+    .underviser3 {
+      width: 40%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+    p {
+      font-size: 1.8em;
+      padding-left: 0.5em;
+      font-family: "Montserrat";
+      color: #e5233b;
     }
   }
 </style>
