@@ -1,5 +1,6 @@
 ---
 import Button from "../components/Button.astro";
+import "../styles/global.css";
 ---
 
 <section>
@@ -72,7 +73,7 @@ import Button from "../components/Button.astro";
   .news-message {
     display: flex;
     flex-shrink: 0;
-    height: 50px;
+    height: var(--spacing-space-small);
     align-items: center;
     animation: slide-left 40s linear infinite;
   }
@@ -96,6 +97,7 @@ import Button from "../components/Button.astro";
   }
 
   .undervisere {
+    padding-top: var(--spacing-space-large);
     display: grid;
     justify-self: center;
     align-self: center;
@@ -103,11 +105,13 @@ import Button from "../components/Button.astro";
   .undervisere h1 {
     justify-self: center;
     align-self: center;
+    padding-bottom: var(--spacing-space-small);
   }
   .underviseregalleri {
     display: flex;
     justify-content: space-around;
-    gap: 10px;
+    gap: var(--spacing-space-xsmall);
+    padding-bottom: var(--spacing-space-small);
   }
 
   .underviseregalleri img {
@@ -129,12 +133,6 @@ import Button from "../components/Button.astro";
       display: block;
       margin-left: auto;
       margin-right: auto;
-    }
-    p {
-      font-size: 1.8em;
-      padding-left: 0.5em;
-      font-family: "Montserrat";
-      color: #e5233b;
     }
   }
 </style>
