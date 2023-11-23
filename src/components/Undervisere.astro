@@ -48,11 +48,19 @@ import Button from "../components/Button.astro";
       <img class="underviser2" src="/assets/images/underviser2.png" alt="" />
       <img class="underviser3" src="/assets/images/underviser3.png" alt="" />
     </div>
-    <Button text="Se alle undervisere" />
+    <div class="knap">
+      <Button text="Se alle undervisere" />
+    </div>
   </div>
 </section>
 
 <style>
+  .knap {
+    margin: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 20%);
+  }
   section {
     text-transform: uppercase;
     overflow-x: hidden;

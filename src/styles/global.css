@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+}
+
 :root {
   /*global tokens*/
   --white: #ffff;
@@ -23,10 +27,22 @@
   }
 }
 
+a {
+  font-size: 36px;
+}
+
 @media (max-width: 700px) {
   h1 {
     font-size: 50px;
     font-family: "DansestudietDisplay1-Bold";
+  }
+  h2 {
+    font-size: 40px;
+    font-family: "DansestudietDisplay1-Bold";
+  }
+
+  a {
+    font-size: 22px;
   }
 }
 
