@@ -1,29 +1,9 @@
 ---
 const { text } = Astro.props;
-import Button from "../components/Button.astro";
 ---
 
 <section>
   <div class="hero-image">
-    <img class="billede" src="/assets/images/forsidebillede.png" alt="" />
-    <div class="hero-button">
-      <Button text="Se skema her" />
-    </div>
+    <img class="billede" src="/assets/images/forsidebillede.png" width="100%" height="100%" alt="forsideimg" />
   </div>
-
-  <style>
-    .hero-button {
-      text-align: center;
-      position: relative;
-      transform: translate(30%, -150%);
-    }
-    .billede {
-      height: 50%;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover;
-      position: flex;
-      width: 100%;
-    }
-  </style>
 </section>
