@@ -50,31 +50,34 @@
         }
         .kontakt {
           color: #231f20;
-          font-size: 20px;
+          font-size: 15px;
           font-family: Montserrat;
-          line-height: 20px;
+          line-height: 16px;
           word-wrap: break-word;
+          text-align: left;
+          justify-content: center;
+          padding-left: 130px;
         }
 
         .åbningstider {
           color: #231f20;
-          font-size: 20px;
+          font-size: 15px;
           font-family: Montserrat;
-          line-height: 20px;
+          line-height: 10px;
           word-wrap: break-word;
+          text-align: left;
+          justify-content: center;
+          padding-left: 130px;
         }
 
         .boks_1 {
           justify-content: space-between;
-          width: 237px;
-          height: 229px;
           position: relative;
+          padding-left: 100;
         }
 
         .boks_2 {
           justify-content: space-between;
-          width: 237px;
-          height: 229px;
           position: relative;
         }
 
@@ -83,6 +86,7 @@
           margin-top: 20px;
           max-width: 400px;
           gap: 10px;
+          justify-content: center;
         }
 
         .logo_grid img {
@@ -99,6 +103,9 @@
           height: auto;
           box-sizing: border-box;
         }
+        a {
+          text-decoration: none;
+        }
 
         /******** Desktop site *******/
         @media (min-width: 700px) {
@@ -114,15 +121,7 @@
             padding-bottom: 105px;
             padding-top: 105px;
           }
-          .kontakt {
-            color: #231f20;
-            font-size: 15px;
-            font-family: Montserrat;
-            line-height: 25.2px;
-            word-wrap: break-word;
-          }
-
-          .åbningstider {
+          .kontakt .åbningstider {
             color: #231f20;
             font-size: 15px;
             font-family: Montserrat;
@@ -139,15 +138,7 @@
             word-wrap: break-word;
           }
 
-          .boks_1 {
-            justify-content: space-between;
-            align-items: center;
-            width: 237px;
-            height: 229px;
-            position: relative;
-          }
-
-          .boks_2 {
+          .boks_1 .boks_2 {
             justify-content: space-between;
             align-items: center;
             width: 237px;
