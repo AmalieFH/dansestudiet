@@ -34,21 +34,13 @@
   }
   header {
     display: flex;
-    gap: 1rem;
     align-items: center;
     align-items: right;
-    padding-right: 2rem;
     justify-content: space-between;
     position: fixed;
     top: 0;
-    background: #ffeced;
+    background: var(--color-red-1);
     width: 100%;
-  }
-
-  h3 {
-    color: #e5233b;
-    font-size: 1rem;
-    font-family: "Montserrat";
   }
 
   .logo_img {
@@ -62,20 +54,17 @@
     display: block;
     border: none;
     background: transparent;
-    margin: 23px;
-    cursor: pointer;
-    height: 27px;
-    width: 27px;
+    margin: var(--spacing-space-xxsmall);
     z-index: 2;
     position: fixed;
     top: 0px;
-    right: 30px;
+    right: var(--spacing-space-xsmall);
   }
 
   #burger-menu span,
   #burger-menu span:before,
   #burger-menu span:after {
-    background: #e5233b;
+    background: var(--color-red-3);
     display: block;
     height: 3px;
     opacity: 1;
@@ -102,13 +91,13 @@
     top: 0px;
     transform: rotate(90deg);
     width: 27px;
-    background: #e5233b;
+    background: var(--color-red-3);
   }
   #burger-menu.close span {
     transform: rotate(-45deg);
     top: 13px;
     width: 27px;
-    background: #e5233b;
+    background: var(--color-red-3);
   }
   #burger-menu.close span:after {
     top: 0px;
@@ -116,11 +105,11 @@
     transform: rotate(90deg);
     opacity: 0;
     width: 0;
-    background: #e5233b;
+    background: var(--color-red-3);
   }
   #menu {
     z-index: 1;
-    background: #f5b4b1;
+    background: var(--color-red-2);
     min-width: 100%;
     min-height: 100%;
     position: fixed;
@@ -131,14 +120,14 @@
     visibility: hidden;
     opacity: 0;
     text-align: center;
-    padding-top: 20px;
+    padding-top: var(--spacing-space-xsmall);
     transition: all 0.3s ease-in-out;
   }
   #menu.overlay {
     visibility: visible;
     opacity: 10;
     padding-top: 100px;
-    background: #f5b4b1;
+    background: var(--color-red-2);
   }
   #menu ul {
     padding: 0;
@@ -148,7 +137,7 @@
     display: initial;
   }
   #menu a {
-    color: #e5233b;
+    color: var(--color-red-3);
     display: block;
     font-size: 300%;
     text-decoration: none;
@@ -159,14 +148,14 @@
   }
 
   #menu a:hover {
-    color: #e5233b;
+    color: var(--color-red-3);
     -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #e5233b;
+    -webkit-text-stroke-color: var(--color-red-3);
   }
 
   @media (max-width: 700px) {
     #menu a {
-      color: #e5233b;
+      color: var(--color-red-3);
       display: block;
       font-size: 1rem;
       margin-bottom: 15px;
@@ -177,9 +166,9 @@
       padding-top: 2%;
     }
     #menu a:hover {
-      color: #e5233b;
+      color: var(--color-red-3);
       -webkit-text-stroke-width: 0px;
-      -webkit-text-stroke-color: #e5233b;
+      -webkit-text-stroke-color: var(--color-red-3);
     }
   }
 </style>
