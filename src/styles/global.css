@@ -26,11 +26,9 @@
     font-family: "DansestudietDisplay1-Bold";
   }
 }
-
 a {
-  font-size: 36px;
+  font-size: 22px;
 }
-
 @media (max-width: 700px) {
   h1 {
     font-size: 50px;
@@ -39,10 +37,6 @@ a {
   h2 {
     font-size: 40px;
     font-family: "DansestudietDisplay1-Bold";
-  }
-
-  a {
-    font-size: 22px;
   }
 }
 
