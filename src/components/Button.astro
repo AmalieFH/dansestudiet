@@ -8,22 +8,33 @@ const { text } = Astro.props;
 
 <style>
   button {
-    padding: 15px 30px;
+    padding: 38px 56px;
     align-items: center;
-    gap: 10px;
+    border: none;
+    justify-self: center;
     border-radius: 20px;
-    background: #e5233b;
+    background: var(--red3);
+  }
+
+  button:hover {
+    background: var(--red1);
+    border-color: var(--red3);
+    border-style: solid;
   }
 
   a {
-    color: white;
+    color: var(--white);
     font-family: "Montserrat";
-    font-size: 1.3rem;
+    text-transform: uppercase;
+  }
+
+  a:hover {
+    color: var(--red3);
   }
 
   @media (max-width: 700px) {
     button {
-      padding: 15px 30px;
+      padding: 12px 21px;
     }
   }
 </style>
