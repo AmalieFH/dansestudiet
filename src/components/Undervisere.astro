@@ -44,9 +44,9 @@ import Button from "../components/Button.astro";
 <section>
   <div class="undervisere">
     <div class="underviseregalleri">
-      <img class="underviser1" src="/assets/images/underviser1.png" alt="" />
-      <img class="underviser2" src="/assets/images/underviser2.png" alt="" />
-      <img class="underviser3" src="/assets/images/underviser3.png" alt="" />
+      <img class="underviser1" src="/assets/images/underviser1.png" alt="underviser1" />
+      <img class="underviser2" src="/assets/images/underviser2.png" alt="underviser2" />
+      <img class="underviser3" src="/assets/images/underviser3.png" alt="underviser3" />
     </div>
     <div class="knap">
       <Button text="Se alle undervisere" />
@@ -61,7 +61,7 @@ import Button from "../components/Button.astro";
     left: 50%;
     transform: translate(-50%, 20%);
   }
-  section {
+  .stilarter {
     text-transform: uppercase;
     overflow-x: hidden;
   }
@@ -97,15 +97,13 @@ import Button from "../components/Button.astro";
     }
   }
 
-  .underviser1,
-  .underviser2,
-  .underviser3 {
-    width: 50%;
-  }
-  .underviseregalleri {
+  .undervisere {
     display: flex;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: space-around;
+    gap: 10px;
+  }
+  .underviseregalleri img {
+    max-width: 30%;
   }
 
   @media (max-width: 700px) {
@@ -116,11 +114,9 @@ import Button from "../components/Button.astro";
     .underviser1,
     .underviser2,
     .underviser3 {
-      width: 40%;
       display: block;
       margin-left: auto;
       margin-right: auto;
-      width: 50%;
     }
     p {
       font-size: 1.8em;
